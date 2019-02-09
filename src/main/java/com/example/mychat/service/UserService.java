@@ -27,4 +27,8 @@ public class UserService {
             return 2;
         }
     }
+
+    public String findNameByAccount(String account){
+        return userMapper.findByAccount(account).getName();
+    }
 }

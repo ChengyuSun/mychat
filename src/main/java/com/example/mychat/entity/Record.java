@@ -13,5 +13,5 @@ import java.sql.Timestamp;
 public class Record {
     private String line;
     private Timestamp time;
-    private User user;
+    private int userName;
 }
